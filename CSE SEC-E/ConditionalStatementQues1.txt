@@ -1,0 +1,24 @@
+Leap Year: Write a program that checks if a given year is a leap year. A leap year is divisible by 4, but not divisible by 100 unless it is also divisible by 400.
+
+
+Vowel or Consonant: Write a program that takes a character as input and determines whether it's a vowel or a consonant.
+
+Temperature Converter: Write a program that converts temperatures between Fahrenheit and Celsius. The user should be able to choose the input and output scales, and the program should perform the conversion accordingly.
+
+Day of the Week Calculator: Write a program that takes a number (1-7) as input and prints the corresponding day of the week (e.g., 1 represents Sunday, 2 represents Monday, etc.).
+
+
+Tax Calculator: Create a program that calculates the income tax for a person based on their income. Consider different tax slabs and apply the appropriate tax rate using if-else statements.
+
+	If the salary is below 10k then no tax.
+	if between 10k-20k then 10% tax
+	if between 20k-30k then 15% tax
+	and if the basic is above 30k then flat 25% tax is applicable.
+
+
+Discount Calculator: Create a program that calculates the discount amount for a customer's purchase based on their total bill and a set of discount rules. Apply different discounts based on the purchase amount. Also print the bill recipt on the output screen.
+
+	1k-5k then 5% off
+	5k-10k then 10% off
+	10-20k- then 15% off
+	Anything above 20k then 25%off
