@@ -1,0 +1,13 @@
+Menu-Driven Calculator: Create a menu-driven calculator program that allows the user to choose from a list of operations (addition, subtraction, multiplication, division) using a switch statement. Take two numbers as input and perform the selected operation.
+
+
+Simple ATM Machine: Implement a simple ATM machine program using a switch statement. Allow users to check their balance, deposit money, and withdraw money. Keep track of the user's account balance.
+
+
+Weekday or Weekend Checker: Write a program that takes a day of the week as input and uses a switch statement to determine whether it's a weekday or a weekend day.
+
+
+Season Determiner: Create a program that takes a month as input and uses a switch statement to determine the season (e.g., spring, summer, fall, or winter) associated with that month.
+
+
+Simple Traffic Light: Implement a program that simulates a simple traffic light with states like "Red," "Yellow," and "Green." Use a switch statement to handle the transitions between states.
