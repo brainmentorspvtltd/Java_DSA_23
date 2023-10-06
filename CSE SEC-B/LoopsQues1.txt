@@ -1,6 +1,6 @@
 Even or Odd: Write a Java program that prints all even and odd numbers in the given range
 
-Count digits
+Count digits, say user entered 1234. The count of this number is 4, because there are 4 digits in this number.
 
 Digit Sum.You are given an integer number, say 123 the output will be 1+2+3=6.
 
