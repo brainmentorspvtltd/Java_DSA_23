@@ -1,0 +1,19 @@
+Even or Odd: Write a Java program that prints all even and odd numbers in the given range
+
+Count digits, say user entered 1234. The count of this number is 4, because there are 4 digits in this number.
+
+Digit Sum.You are given an integer number, say 123 the output will be 1+2+3=6.
+
+Factorial: Write a program to calculate the factorial of a given number using a loop (e.g., 5! = 5 x 4 x 3 x 2 x 1).
+
+Prime Number: Write a Java program to check if a given number is prime or not using loops and conditional statements. 
+
+Fibonacci Series: Write a program to generate the Fibonacci series up to a specified number of terms using a loop (e.g., 0, 1, 1, 2, 3, 5, 8, ...).
+
+Palindrome Number: Write a Java program to check if a given number is a palindrome (e.g., 121, 1331) using loops and conditional statements.
+
+Reverse a Number: Write a program to reverse a given number using loops.
+
+Anagram Checker: Write a program that checks whether two given strings are anagrams of each other (i.e., they have the same characters in a different order).
+
+Print Prime Numbers: Write a program to print all prime numbers within a given range.
