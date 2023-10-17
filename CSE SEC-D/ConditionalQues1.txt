@@ -1,0 +1,4 @@
+Create a Java program that takes employee details (name, basic salary) and calculates the gross salary by adding HRA (30% of basic), DA (20% of basic), and TA (fixed at 2000). Deduct income tax based on a tax rate. Generate salary slips displaying employee information, gross salary, income tax, and net salary.
+
+Gross = basic+hra+da+ta
+Net = gross - tax.
