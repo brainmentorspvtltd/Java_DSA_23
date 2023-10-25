@@ -1,0 +1,53 @@
+
+    1. WAP to calculate simple interest
+    2. WAP to calculate area and perimeter of a rectangle
+    3. WAP to swap two numbers with and without using third variable
+    4. Check whether the year is leap or not
+    5. Convert Upper to lower case and vice versa
+    6. Convert Celsius into Fahrenheit and vice versa
+    7. WAP to calculate net salary of employee, take basic salary of employee and calculate
+ 	HRA 30% of basic salary, 
+	DA 20% of the basic salary, 
+	TA 10% of the basic salary and 
+	Net salary is sum up of basic salary+ allowances-pf.
+ 	Pf is 1400 fix. 
+    8. WAP to check whether the triangle is isosceles , equilateral or scalene.
+    9. Find out entered number is Positive or Negative Number.
+    10. Find out the grade , according to given percentage of the user.
+        a. >=90 print ‘A’ Grade
+        b. 89 to 70 print ‘B’ Grade
+        c. 69 to 50 print ‘C’ Grade
+        d. <50 print ‘D’ Grade 
+
+
+    11. A Insurance Company have a following polices (Insurance Premium Calculation program)
+		User Input :
+                    a. Person Name
+                    b. Person gender
+                    c. Person Age
+                    d. Person city (Metro or Non-Metro)
+	Conditions:
+		if person age is 25 to 35 and gender is male and city is metro , Output is Premium is 6%
+		if person age is 25 to 40 and gender is male and city is non-metro, Output is Premium 4%
+		if person age is 25 to 42 and gender is female and city is Metro, Output is Premium 3%
+		if person age is 25 to 45 and gender is female and city is non-metro , output is Premium 2%
+		else
+ 		Not Insured
+    12. WAP to print the Days of week and months of the year.
+    13. WAP to check whether the entered character is vowel or not.
+    14. WAP to create a menu driven program 
+	Press 1 for Addition
+	Press 2 for Subtraction
+	Press 3 for Multiplication
+	Press 4 for Division
+    15. WAP to check whether the given no. is prime or not.
+    16. WAP to print the  prime number between 1 to 100.
+    17. WAP to print the even number and odd number between 1 to 100.
+    18. WAP to print the sum of digit of a no.
+    19. WAP to print the Fibonacci series
+    20. WAP to find the factorial of a no.
+    21. WAP to r everse the no.
+    22. WAP to print the Armstrong no.
+    23. WAP to print the square root of a no.
+    24. WAP to print sum of  1+2+3+.............................n 
+    25. WAP to print sum of 12+22+32+..........................n2 
