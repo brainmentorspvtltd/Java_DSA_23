@@ -1,0 +1,88 @@
+
+
+
+
+
+What is this?
+This - keyword
+this contains current calling object reference.
+
+What is Constructor ? Why we need it?
+Constructor is used to initialise the instance variables of a class
+Constructor name is same as class name
+Constructor not return any thing because it just to initalization
+If u write void in front of constructor , so it is become a function.
+When u create an object then constructor is called.
+Constructor can be overload
+Every class has default constructor by default. But if u create any other constructor so the default will be killed. So u need to create both if u want to use both of them.
+The default constructor is an empty one , it doesn’t do any thing , if u want to initalize some value , u need to do explictly.
+
+Example:
+
+A) OOPS
+ SOLID
+ S - SRP Single Responsibility Principle
+Why we use static methods?
+What is import static
+Can we have static class
+Why main method is static
+
+Answer
+a) What is 
+b) Why 
+c) How		
+
+
+Instance Variables vs Static Variables
+
+What is Access Modifers
+
+Class RelationShips
+
+UML Class Diagrams
+Association , Aggegration, Generalisation, Specialisation , Realization
+
+
+
+What is OOPS Principles -
+a) Class
+b) Object
+c) Encapsulation - binding data members and functions in a single unit and that unit is called class.
+Good Encapsulation - private data members and public functions and bind in a single unit.
+d) Data Hiding - e.g private 
+Access Modifiers
+i) private - with in the class.
+ii) default - with in the package access
+iii) protected - with in the package and outside the package using inheritance
+iv) public- inside & outside the package.
+e) Polymorphism - One thing having several forms
+A) Overloading - Constructor Overloading & Method Overloading
+B) Overriding 
+f) Abstraction - Show Essentials
+Abstract class and Interfaces
+
+
+
+
+
+Overloading 
+
+
+
+
+b) Logic - Array, Recursion, Strings, LinkedList - Question 
+Per Topic 20 Questions Self Try
+Concept Stack, Queue, Tree
+
+c) DB - DBMS + SQL
+
+
+Java - a) Primitive Data Types
+
+OOP
+Object - Instance of a class
+Object = State (data) + Methods
+
+What is Class?
+BluePrint / Template
+
