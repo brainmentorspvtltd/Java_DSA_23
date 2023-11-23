@@ -1,0 +1,26 @@
+1. Name Print 10 Times
+2. 1 to 10, 10 to 1
+3. Even / Odd 1 to N
+4. Sum of N Natural Number
+5. Print Digit 
+6. Sum of Digit
+7. Prime Number
+8. ArmStrong Number
+9. Reverse a Number
+10. String Reverse
+11. Palindrome Number
+12. Number System 
+13. Factorial 
+14. Power of a Number, Power of 2 ,3 Power of N.
+15. Count 0 in Digit
+16. Count Even/ Odd in Digit
+17. Find the Sum of Even and Odd Digit
+18. Upper Case to Lower Case Conversion
+19. Replace Character in a String
+20. Find Character in a String
+Array Questions
+21. Array is Sorted or Not
+22. Search Element in Array
+23. Occurance of Element in Array
+24. Replace Element in Array
+25. Max & Min Element in Array
