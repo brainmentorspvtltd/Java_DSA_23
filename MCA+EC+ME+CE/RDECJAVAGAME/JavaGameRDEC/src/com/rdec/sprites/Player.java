@@ -4,15 +4,12 @@ import java.awt.Graphics;
 
 import javax.swing.ImageIcon;
 
-public class Player {
+public class Player extends Feature{
 
-	int x;
-	int y;
-	int h; 
-	int w;
-	ImageIcon photo;
+	
 	
 	public Player() {
+//		this.speed = speed;
 		x = 100;
 		y = 400;
 		h = 200;
@@ -20,13 +17,20 @@ public class Player {
 		photo = new ImageIcon(Player.class.getResource("player.gif"));
 	}
 	
+public void move() {
+		
+		if(x>1400) {
+			x = 0;
+		}
+		
+		x = x + speed;
+	}
+	
 //	public void loadPhoto() {
 //      photo = new ImageIcon(Enemy.class.getResource("enemy.gif"));
 //	}
 	
-	public void drawPlayer(Graphics brush) {
-		brush.drawImage(photo.getImage(), x, y, w, h, null);
-	}
+	
 	
 }
 

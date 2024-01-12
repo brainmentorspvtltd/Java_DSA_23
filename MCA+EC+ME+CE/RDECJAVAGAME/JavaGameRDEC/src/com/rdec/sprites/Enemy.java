@@ -4,16 +4,12 @@ import java.awt.Graphics;
 
 import javax.swing.ImageIcon;
 
-public class Enemy {
+public class Enemy extends Feature{
 
-	int x;
-	int y;
-	int h; 
-	int w;
-	ImageIcon photo;
 	
-	public Enemy() {
-		x = 1000;
+	public Enemy(int x, int speed) {
+		this.x = x;
+		this.speed = speed;
 		y = 100;
 		h = 150;
 		w = 150;
@@ -23,9 +19,14 @@ public class Enemy {
 //	public void loadPhoto() {
 //      photo = new ImageIcon(Enemy.class.getResource("enemy.gif"));
 //	}
-	
-	public void drawEnemy(Graphics brush) {
-		brush.drawImage(photo.getImage(), x, y, h, w, null);
+public void move() {
+		
+		if(y>700) {
+			y = 0;
+		}
+		
+		y = y + speed;
 	}
+	
 	
 }
