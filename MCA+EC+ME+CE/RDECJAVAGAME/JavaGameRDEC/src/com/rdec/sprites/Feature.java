@@ -6,10 +6,10 @@ import javax.swing.ImageIcon;
 
 public class Feature {
 	public int speed;
-	int x;
-	int y;
-	int h; 
-	int w;
+	public int x;
+	public int y;
+	public int h; 
+	public int w;
 	ImageIcon photo;
 	
 	

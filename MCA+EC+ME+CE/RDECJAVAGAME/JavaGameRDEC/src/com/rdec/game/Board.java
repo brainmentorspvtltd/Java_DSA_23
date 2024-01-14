@@ -1,5 +1,7 @@
 package com.rdec.game;
 
+import java.awt.Color;
+import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -29,6 +31,32 @@ public class Board extends JPanel {
 		
 	}
 	
+	
+	public boolean collision(Enemy e) {
+		int xGap = Math.abs(player.x - e.x);
+		int yGap = Math.abs(player.y - e.y);
+		System.out.println("THis" + xGap +" ff" + yGap);
+		int maxW = Math.max(player.w, e.w) - 100;
+		int maxH = Math.max(player.h, e.h) - 100;
+		boolean res = xGap<= maxW && yGap <= maxH;
+		return res;
+	}
+	
+	
+	public void gameOver(Graphics brush) {
+		for(Enemy enemy:enemies) {
+			if(collision(enemy)) {
+				brush.setFont(new Font("arial", Font.BOLD, 100));
+				brush.setColor(Color.RED);
+				brush.drawString("GAME OVER", 1400 /3, 700/2);
+				timer.stop();
+			}
+			else {
+//				System.out.println("Not Happen");
+			}
+		}
+	}
+	
 	public void displayEnemies() {
 		int x = 800;
 		int gap = 200;
@@ -50,6 +78,7 @@ public class Board extends JPanel {
 	public void paintPlayer(Graphics brush) {
 		player.drawSprite(brush);
 		player.move();
+		player.gameWin();
 	}
 	
 	
@@ -68,7 +97,6 @@ public class Board extends JPanel {
 		timer.start();
 	}
 	
-	
 	public void keyBoard() {
 		addKeyListener(new KeyListener() {
 			
@@ -81,10 +109,7 @@ public class Board extends JPanel {
 			@Override
 			public void keyReleased(KeyEvent e) {
 				// TODO Auto-generated method stub
-				if(e.getKeyCode() == e.VK_LEFT) {
-					player.speed = -5;
-				}
-//				player.speed = 0;
+				player.speed = 0;
 				
 			}
 			
@@ -94,6 +119,9 @@ public class Board extends JPanel {
 				
 				if(e.getKeyCode() == e.VK_RIGHT) {
 					player.speed = 5;
+				}
+				if(e.getKeyCode() == e.VK_LEFT) {
+					player.speed = -5;
 				}
 				
 				
@@ -108,6 +136,7 @@ public class Board extends JPanel {
 //		new Enemy().drawEnemy(brush);
 		paintEnemy(brush);
 		paintPlayer(brush);
+		gameOver(brush);
 	}
 	
 }

@@ -30,6 +30,13 @@ public void move() {
 //      photo = new ImageIcon(Enemy.class.getResource("enemy.gif"));
 //	}
 	
+
+public boolean gameWin() {
+	if(x >= 1400) {
+		return true;
+	}
+	return false;
+} 
 	
 	
 }
