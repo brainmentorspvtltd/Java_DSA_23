@@ -1,0 +1,1 @@
+create table users(userid varchar(50) NOT NULL , password varchar(50) NOT NULL, status char(1) default 'Y', uid int AUTO_INCREMENT NOT NULL, UNIQUE(userid), PRIMARY KEY(uid) )
